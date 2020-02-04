@@ -89,4 +89,4 @@ production:
   database: pa_rails_1_production
   username: pa_rails_1
   password: <%= ENV['PA_RAILS_1_DATABASE_PASSWORD'] %>
-  url: <%= ENV['DATABASE_URL'] %>
+  #url: <%= ENV['DATABASE_URL'] %>
